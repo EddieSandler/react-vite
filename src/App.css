@@ -1,0 +1,31 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+/* App.css or wherever your styles are defined */
+.deck {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Creates 4 columns */
+  grid-gap: 20px; /* Adjusts the gap between grid items */
+  justify-content: center;
+
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  height:250px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+  border: 1px solid #ccc; 
+  border-radius: 8px;
+  background-color: lightgrey
+}
+h3 {
+  color:blue
+}
+
